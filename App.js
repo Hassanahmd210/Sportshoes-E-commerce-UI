@@ -70,8 +70,8 @@ export default function App() {
           },
           tabBarActiveTintColor: 'orange',
           tabBarInactiveTintColor: 'gray',
-        })}
-      > 
+        })} >
+  
         <Tab.Screen name="My Profile" component={ProfileStackNavigator} options={{ headerShown: false }} />
         <Tab.Screen name="Voucher" component={Voucher} />
                 <Tab.Screen name="Article" component={ArticleStackNavigator} options={{ headerShown: false }} />
